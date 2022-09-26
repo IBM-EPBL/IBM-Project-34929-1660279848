@@ -1,0 +1,21 @@
+NAME : RANJITH
+
+
+CODE :
+      
+         import random  
+
+while (True):
+  temperture=random.randint(-20,120)
+  humanity=random.randint(10,100)
+  if(temperture>35 and humanity>60):
+    print("high level so :","alarm is on","temperture level is :",temperture,"humanity level:",humanity)
+  elif(temperture<35 and humanity<60):
+    print("normal level so :","alarm is off","temperture level is :",temperture,"humanity level: ", humanity)
+    break
+
+
+OUTPUT;
+     few outputs :
+               high level so : alarm is on temperture level is : 57 humanity level: 61
+               low level so : alarm is off temperture level is : 28 humanity level:  47
